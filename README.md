@@ -154,3 +154,14 @@ A mail-order company selling CDs and tapes to record club members.
 | `1`, `0..1`, `0..*`, `1..*` | Multiplicity (how many objects on each side) |
 | `«include»` | A use case that is always part of another |
 | `«extend»` | An optional use case that adds to another |
+
+
+## Part 4: Design Patterns
+
+Files are in the `design-patterns/` folder. 
+
+| File | Pattern | Problem solved |
+|---|---|---|
+| `factory_payment.py` | Factory | Long `if/elif` chain for payment methods |
+| `builder_employee.py` | Builder | Function with 17 parameters ("telescoping constructor") |
+| `singleton_config.py` + `config.json` | Singleton | Config file read again in every module |
